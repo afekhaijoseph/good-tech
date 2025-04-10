@@ -18,7 +18,7 @@ const GetInTouch = () => {
                 <label htmlFor="message"></label>
                 <textarea placeholder="Message" rows="6" className="w-full border-2 border-gray-200 p-1 rounded-md" required/>
             </div>
-            <div className="">
+            <div className="my-4">
           <button className="bg-blue-950 text-white p-2 rounded-md mx-auto w-full">Send Message</button>
         </div>
         </form>
