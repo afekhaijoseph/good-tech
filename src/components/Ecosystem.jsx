@@ -1,7 +1,7 @@
 import { Combine, TrendingUp, Briefcase } from "lucide-react"
 const Ecosystem = () => {
   return (
-    <div className="text-gray-500" >
+    <div className="text-gray-500 mt-14" >
         <h2 className="text-4xl text-blue-950 font-bold text-center my-3">Join Our Ecosystem</h2>
         <p className="text-xl text-center mb-14">Good Tech HQ thrives on collaboration, bold thinking, and shared ambition. If you are an innovator, investor, or entrepreneur looking to shape the future, there’s a place for you here. Opportunities include:</p>
         <div className="flex flex-col gap-6 md:flex-row md:w-3/4 mx-auto">
