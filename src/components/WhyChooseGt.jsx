@@ -5,7 +5,7 @@ const WhyChooseGt = () => {
   return (
     <div id="whychoose" className='text-gray-500'>
         <h2 className='text-4xl font-bold text-blue-950 text-center my-16' >Why Choose Good Tech HQ?</h2>  
-        <div className='grid grid-cols-1 gap-5 md:grid-cols-2 md:w-'>
+        <div className='grid grid-cols-1 gap-5 md:grid-cols-2 md:w-2/3 mx-auto'>
         <div className='shadow-md border-2 border-gray-100 p-3'>
             <Rocket size={48} stroke={'rgba(51,51,153,0.8)'}/>
             <div>

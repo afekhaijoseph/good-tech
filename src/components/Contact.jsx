@@ -19,17 +19,17 @@ const GetInTouch = () => {
                 <textarea placeholder="Message" rows="6" className="w-full border-2 border-gray-200 p-1 rounded-md" required/>
             </div>
             <div className="my-4">
-          <button className="bg-blue-950 text-white p-2 rounded-md mx-auto w-full">Send Message</button>
-        </div>
+                <button className="bg-blue-950 text-white p-2 rounded-md mx-auto w-full border-2 border-blue-950 hover:bg-white hover:text-blue-950">Send Message</button>
+            </div>
         </form>
 
-        <div className="my-10 basis-full">
+        <div className="my-10 basis-full self-start md:my-0">
             <h3 className="text-lg font-bold text-blue-950 mb-5">Contact Information</h3>
             <div className="flex items-center gap-2 my-4">
                 <Mail size={48} stroke="rgba(51,51,153)"/>
                 <div>
                     <p className="text-bold text-blue-950">Email</p>
-                    <a   className="text-blue-500" href="info@goodtechhq.com">info@goodtechhq.com</a>
+                    <p   className="text-blue-500">info@goodtechhq.com</p>
                 </div>
             </div>
             <div className="mb-5">
