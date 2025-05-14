@@ -1,9 +1,12 @@
+import goodtech from '../assets/images/final-goodtech.png'
 const Footer = () => {
   return (
-    <div className="bg-blue-950 text-gray-300 text-lg">
+    <div className="bg-blue-950 text-gray-300 text-lg mt-52 md:mt-0">
         <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-4">
         <div>
-        <h2 className="text-xl font-semibold text-white py-3">Good<span className="text-[#ff00cc]">Tech</span> <span className="text-[#333399]">HQ</span> </h2>
+            <h2 className="text-xl font-semibold max-w-20 text-blue-950 mt-3">
+                <a href="/"><img className= "" src={goodtech} alt="goodtech logo" /></a>
+            </h2>
            <p className="my-3">Powering Innovation, Elevating Possibilities</p>
         </div>
         <div>

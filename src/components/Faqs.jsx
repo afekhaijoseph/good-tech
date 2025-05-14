@@ -22,21 +22,21 @@ const Faqs = () => {
         {faqData.map((item, index)=>{
           const isOpen = openIndex === index.toString();
           return (
-            <div className='border-b border-gray-300 p-3' key={index} data-index={index}>
+            <div className='border-2 rounded-lg my-2 bg-gray-200 border-gray-300 p-3' key={index} data-index={index}>
                <div className='w-full flex items-center'>
                  <p className='flex-grow text-blue-950 font-semibold'>{item.question}</p>
                  <div>
                    <ChevronDown className={`transition-transform ${isOpen ? 'rotate-180' : ''}`} size={24} color={'#1e1b4b'}/> 
                  </div>
                </div>
-               <p className='text-base text-gray-500'>{isOpen&&item.answer}</p>
+               <p className='text-base text-gray-700'>{isOpen&&item.answer}</p>
            </div>  
           )
           })}
         </div>
 
         <div className="flex items-center my-5">
-          <button className="bg-gradient-to-r from-[rgb(255,0,204,0.8)] to-[rgb(51,51,153,0.8)] text-white p-2 rounded-md mx-auto hover:from-[rgb(255,0,204)] hover:to-[rgb(51,51,153)] transition-colors duration-300 ease-in-out" >Contact Us
+          <button className="text-white p-2 rounded-md mx-auto hover:from-[rgb(255,0,204)] hover:bg-white hover:text-accent " >Contact Us
           </button>
         </div>
     </div>
