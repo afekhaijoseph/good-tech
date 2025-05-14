@@ -3,7 +3,7 @@ import {Rocket, Award, TrendingUp, PersonStanding} from 'lucide-react'
 const WhyChooseGt = () => {
   return (
     <div id="whychoose" className='text-white bg-gray-500 py-4'>
-        <h2 className='text-4xl font-bold text-white text-center my-10' >Why Choose Good Tech HQ?</h2>  
+        <h2 className='text-4xl font-bold text-white text-center my-10 font-orbitron' >Why Choose Good Tech HQ?</h2>  
         <div className='grid grid-cols-1 gap-5 w-10/12 mx-auto md:grid-cols-2 lg:grid-cols-4'>
         <div className='shadow-md border-2 rounded-md flex flex-col items-center border-gray-100 p-3'>
             <Rocket size={48} stroke="#ffffff"/>

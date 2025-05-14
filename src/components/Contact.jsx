@@ -6,7 +6,7 @@ const GetInTouch = () => {
         <div className="absolute inset-0 bg-black/40 z-0"></div>
         <div className="absolute top-0 left-0 right-0">
             <div>
-                <h2 className='text-4xl font-bold text-white text-center my-8'>Get in Touch</h2>
+                <h2 className='text-4xl font-bold text-white text-center my-8 font-orbitron'>Get in Touch</h2>
                 <h3 className="text-xl text-center p-3 text-white" >Have questions or want to discuss a potential collaboration? We'd love to hear from you.</h3>
             </div>
             

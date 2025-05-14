@@ -2,7 +2,7 @@ import { Briefcase, Rocket, Search, TrendingUp } from "lucide-react"
 const Process = () => {
   return (
     <div className="mx-auto">
-        <h2 className="text-4xl text-blue-950 font-bold text-center my-3">Our Process</h2>
+        <h2 className="text-4xl text-blue-950 font-bold text-center my-3 font-orbitron">Our Process</h2>
         <div className="my-10 text-blue-950 grid grid-cols-1 gap-3 md:grid-cols-4">
             <div className="lab shadow-md bg-[rgb(14,189,254,0.1)] rounded-md p-7 flex flex-col gap-3 items-start hover:-translate-y-2">
               <Search size={48} stroke="#28395d"/>

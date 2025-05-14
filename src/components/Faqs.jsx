@@ -17,7 +17,7 @@ const Faqs = () => {
   return (
     <div id="faqs" className="text-lg py-3 md:w-3/4 mx-auto" onClick={handleClick}>
 
-        <h2 className='text-4xl font-bold text-blue-950 text-center my-16'>Frequently Asked Questions</h2>
+        <h2 className='text-4xl font-bold text-blue-950 text-center my-16 font-orbitron'>Frequently Asked Questions</h2>
         <div>
         {faqData.map((item, index)=>{
           const isOpen = openIndex === index.toString();

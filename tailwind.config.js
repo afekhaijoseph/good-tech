@@ -7,6 +7,11 @@ export default {
         accent: "#28395d",
         accentshade: "#0ebdfe",
       },
+      fontFamily: {
+        sans: ["DM Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        orbitron: ["Orbitron", "comic sans"],
+      },
     },
   },
   plugins: [],

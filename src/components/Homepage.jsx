@@ -10,7 +10,7 @@ import LandingPage from "./LandingPage"
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="font-inter">
       <LandingPage/>
       <div className="w-11/12 mx-auto p-1">
       <About/>
