@@ -40,7 +40,7 @@ const WhyChooseGt = () => {
         
         <p className='font-bold text-lg text-center px-3 text-white my-10'>Good Tech HQ is not just a company. It’s an ecosystem where vision meets execution.</p>
         <div className="flex items-center my-5">
-        <button className=" bg-accent text-white p-3 rounded-md mx-auto border-2 border-accent hover:bg-white hover:text-accent" >Partner With Us</button>
+        <a href="mailto:goodtechhq@gmail.com" className=" bg-accent text-white p-3 rounded-md mx-auto border-2 border-accent hover:bg-white hover:text-accent" >Partner With Us</a>
       </div>
     </div>
   )

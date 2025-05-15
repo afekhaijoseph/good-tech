@@ -37,7 +37,7 @@ const Ecosystem = () => {
         </div>
         <p className="text-center my-5 text-blue-950 font-semibold">Let’s build the future together.</p>
         <div className="flex items-center my-5">
-          <button className="bg-accent text-white p-3 rounded-md mx-auto border-2 border-accent hover:bg-white hover:text-accent">Let's connect</button>
+          <a href="mailto:goodtechhq@gmail.com" className="bg-accent text-white p-3 rounded-md mx-auto border-2 border-accent hover:bg-white hover:text-accent">Let's connect</a>
         </div>
     </div>
   )
