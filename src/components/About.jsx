@@ -8,7 +8,7 @@ const About = () => {
            <img className="w-full"src={about} alt="About us image" />
          </div>
       <div className="basis-full px-5">
-        <p className="text-xl text-left mb-14">Good Tech HQ is built on a single, unwavering mission, to create technology that makes a difference.
+        <p className="text-lg text-left mb-14">Good Tech HQ is built on a single, unwavering mission, to create technology that makes a difference.
           We believe that innovation is not just about building products; it's about identifying problems, engineering solutions, and ensuring lasting impact. Our approach is structured into four core divisions, each essential to the product journey:
         </p>
       </div>

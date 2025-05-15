@@ -1,4 +1,9 @@
 import goodtech from '../assets/images/final-goodtech.png'
+import { CiInstagram } from "react-icons/ci";
+import { RiTwitterXFill } from "react-icons/ri";
+import { CiLinkedin } from "react-icons/ci";
+import { CiMail } from "react-icons/ci";
+
 const Footer = () => {
   return (
     <div className="bg-blue-950 text-gray-300 text-lg mt-52 md:mt-0">
@@ -27,10 +32,13 @@ const Footer = () => {
 
         <div>
             <h4  className="font-semibold text-white my-3">Connect</h4>
-            <p className="hover:text-white">Contact Us</p>
-            <p className="hover:text-white">LinkedIn</p>
-            <p className="hover:text-white">Twitter</p>
-            <p className="hover:text-white">Instagram</p>
+            <div className="flex gap-2">
+                <a href=""><CiInstagram size={28} className='hover:text-white'/></a>
+                <a href=""><RiTwitterXFill size={28} className='hover:text-white' /></a>
+                <a href=""><CiLinkedin size={28} className='hover:text-white' /></a>
+                <a href="mailto:goodtechhq@gmail.com"><CiMail size={28} className='hover:text-white'/></a>
+            </div>
+            
         </div>
         </div>
         <div className="py-5 px-3 text-gray-400 flex flex-col items-center md:flex-row md:w-full md:justify-between ">

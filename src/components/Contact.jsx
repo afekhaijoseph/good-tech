@@ -36,7 +36,7 @@ const GetInTouch = () => {
                     <Mail size={48} stroke="rgba(51,51,153)"/>
                     <div>
                         <p className="text-bold">Email</p>
-                        <p   className="text-blue-500">info@goodtechhq.com</p>
+                        <p   className="text-blue-500">goodtechhq@gmail.com</p>
                     </div>
                 </div>
                 <div className="mb-5">
