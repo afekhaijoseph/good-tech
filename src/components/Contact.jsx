@@ -1,5 +1,8 @@
 import { Mail } from "lucide-react"
 import git from '../assets/images/getintouch.jpg'
+import { FaInstagram } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import { FaLinkedin } from "react-icons/fa";
 const GetInTouch = () => {
   return (
     <div id="git" className="h-screen text-gray-500 bg-cover py-10 relative md:h-[50vh] lg:h-screen" style={{backgroundImage: `url(${git})`}}>
@@ -47,9 +50,9 @@ const GetInTouch = () => {
                 <div>
                     <p className="font-bold text-lg text-blue-950" >Follow us</p>
                     <div className="flex gap-2">
-                        <p>LinkedIn</p>
-                        <p>Twitter</p>
-                        <p>Instagram</p>
+                        <a href=""><FaInstagram size={28} className='hover:text-blue-500'/></a>
+                        <a href=""><RiTwitterXFill size={28} className='hover:text-blue-500' /></a>
+                        <a href=""><FaLinkedin size={28} className='hover:text-blue-500' /></a>
                     </div>
                 </div>
             </div>
