@@ -5,7 +5,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 const GetInTouch = () => {
   return (
-    <div id="git" className="h-screen text-gray-500 bg-cover py-10 relative md:h-[50vh] lg:h-screen" style={{backgroundImage: `url(${git})`}}>
+    <div id="git" className="h-screen text-gray-500 bg-cover py-10 relative md:h-[60vh] lg:h-screen" style={{backgroundImage: `url(${git})`}}>
         <div className="absolute inset-0 bg-black/40 z-0"></div>
         <div className="absolute top-0 left-0 right-0">
             <div>
@@ -44,8 +44,7 @@ const GetInTouch = () => {
                 </div>
                 <div className="mb-5">
                     <p className="font-bold text-blue-950 text-lg ">Location</p>
-                    <p>123 Innovation Drive</p>
-                    <p>Tech Valley, CA 94103</p>
+                    <p>No 4, Bolarinwa Street, off Oba Amusa Agungi, Lekki, Lagos State, Nigeria</p>
                 </div>
                 <div>
                     <p className="font-bold text-lg text-blue-950" >Follow us</p>

@@ -4,7 +4,7 @@ const Ecosystem = () => {
     <div className="text-gray-500 mt-14" >
         <h2 className="text-4xl text-blue-950 font-bold text-center my-6 font-orbitron">Join Our Ecosystem</h2>
         <p className="text-xl text-center mt-10 mb-16">Good Tech HQ thrives on collaboration, bold thinking, and shared ambition. If you are an innovator, investor, or entrepreneur looking to shape the future, there’s a place for you here. Opportunities include:</p>
-        <div className="flex flex-col gap-12 w-9/12 md:flex-row md:w-4/6 md:gap-6 mx-auto">
+        <div className="flex flex-col gap-12 w-9/12 md:flex-row md:w-5/6 lg:w-4/6 md:gap-6 mx-auto">
         <div className="flex flex-col relative items-center gap-2 border border-gray-200 rounded-md p-3 shadow-md basis-full" >
           <div className="rounded-full p-3 absolute -top-0 -translate-y-1/2 bg-gray-200">
             <Combine size={48} stroke="#28395d"/>  
