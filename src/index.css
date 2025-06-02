@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.product-features li {
+  list-style: inside;
+}
+
+.product-features li::marker {
+  color: #0ebdfe;
+}

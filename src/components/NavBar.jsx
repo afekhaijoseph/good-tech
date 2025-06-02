@@ -48,17 +48,17 @@ export const NavBar = () => {
           </div>
         </div>
         <div className={`hidden gap-10 items-center ${isScrolled ? "text-white" : "text-accent "} md:flex`}>
-          <a onClick={() => scrollToSection("about")} className="hover:text-accentshade">
-            About
+          <a onClick={() => scrollToSection("research")} className="hover:text-accentshade">
+            Research
           </a>
           <a onClick={() => scrollToSection("products")} className="hover:text-accentshade">
             Products
           </a>
-          <a onClick={() => scrollToSection("whychoose")} className="hover:text-accentshade">
-            Why Choose Us
+          <a onClick={() => scrollToSection("process")} className="hover:text-accentshade">
+            Process
           </a>
-          <a onClick={() => scrollToSection("faqs")} className="hover:text-accentshade">
-            FAQs
+          <a onClick={() => scrollToSection("team")} className="hover:text-accentshade">
+            Lab Team
           </a>
           <button
             onClick={() => scrollToSection("git")}

@@ -1,28 +1,22 @@
-import About from "./About"
-import Process from "./Processes"
+import Research from "./Research"
+import Process from "./Lab"
 import Projects from "./Products"
-import WhyChooseGt from "./WhyChooseGt"
 import Ecosystem from "./Ecosystem"
-import Faqs from "./Faqs"
-import Contact from "./Contact"
 import Footer from "./Footer"
 import LandingPage from "./LandingPage"
+import LabTeam from "./LabTeam"
 
 const Homepage = () => {
   return (
     <div className="font-inter">
       <LandingPage/>
       <div className="w-11/12 mx-auto p-1">
-      <About/>
-      <Process/>
+      <Research/>
       <Projects/>
+      <Process/>
+      <LabTeam/>
       </div>
-      <WhyChooseGt/>
-      <div className="w-11/12 mx-auto p-1">
       <Ecosystem/>
-      <Faqs/>
-      </div>
-      <Contact/>
       <Footer/>
     </div>
   )

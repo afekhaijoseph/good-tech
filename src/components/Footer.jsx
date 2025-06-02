@@ -2,28 +2,28 @@ import goodtech from '../assets/images/final-goodtech.png'
 
 const Footer = () => {
   return (
-    <div className="bg-blue-950 text-gray-300 text-lg mt-52 md:mt-0">
-        <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-3">
-        <div>
+    <div className="bg-blue-950 text-gray-300 mt-0">
+        <div className="w-11/12 mx-auto flex flex-col md:flex-row gap-3 items-center justify-between">
+        <div className='flex flex-col items-center md:items-start'>
             <h2 className="text-xl font-semibold max-w-20 text-blue-950 mt-3">
                 <a href="/"><img className= "" src={goodtech} alt="goodtech logo" /></a>
             </h2>
-           <p className="my-3">Powering Innovation, Elevating Possibilities</p>
-        </div>
-        <div>
-           <h4 className="font-semibold text-white my-3">Company</h4>
-           <p className="hover:text-white">About Us</p>
-           <p className="hover:text-white">Products</p>
-           <p className="hover:text-white">Join Our Ecosystem</p>
-           <p className="hover:text-white">Careers</p>
+           <p className="my-3">Innovating for a smarter future</p>
         </div>
 
-        <div>
-            <h4  className="font-semibold text-white my-3">Resources</h4>
-            <p className="hover:text-white">Blog</p>
-            <p className="hover:text-white">FAQ</p>
-            <p className="hover:text-white">Press</p>
-            <p className="hover:text-white">Events</p>
+        <div className="flex gap-2 justify-evenly">
+          <a onClick={() => scrollToSection("research")} className="hover:text-accentshade">
+            Research
+          </a>
+          <a onClick={() => scrollToSection("products")} className="hover:text-accentshade">
+            Products
+          </a>
+          <a onClick={() => scrollToSection("process")} className="hover:text-accentshade">
+            Process
+          </a>
+          <a onClick={() => scrollToSection("team")} className="hover:text-accentshade">
+            Lab Team
+          </a>
         </div>
 
         </div>
