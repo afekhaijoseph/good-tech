@@ -1,8 +1,7 @@
-import { ArrowRight } from "lucide-react"
 
 const Hero = () => {
   return (
-    <div className="py-10 absolute bottom-1/4 flex flex-col gap-4 text-center mx-auto px-3 md:text-left md:gap-0 lg:w-3/5 lg:mx-0 md:top-1/4 md:pl-10 text-gray-600">
+    <div className="py-10 absolute bottom-[20%] flex flex-col gap-4 text-center mx-auto px-3 md:text-left md:gap-0 lg:w-3/5 lg:mx-0 md:top-1/4 md:pl-10 text-gray-600">
      <h1 className="text-6xl md:text-7xl text-[#28395D] font-bold leading-tight font-orbitron text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">GoodTech Lab</h1>
      <p className="text-lg">Where groundbreaking ideas are born.</p>
      <p className="text-gray-600 leading-normal my-5 md:textl-2xl">Our innovation Laboratory is the birthplace of trnasformative technologies. Here, we experiment, prototype and refine the ideas that become tomorrow's essential products.</p>
