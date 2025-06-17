@@ -17,9 +17,11 @@ const Research = () => {
         </div>
         <h3 className='text-xl text-accent font-semibold'>Artificial Intelligence</h3>
         <p>Developing AI solutions that enhance productivity and decision-making across various domains.</p>
-        <div className='flex gap-2 text-sm'>
+        <div className='flex flex-wrap gap-2 text-sm'>
           <p className='bg-accentshade/20 text-accent rounded-full py-1 px-2'>Effico Ai</p>
           <p className='bg-accentshade/20 text-accent rounded-full py-1 px-2'>Smart Assistants</p>
+          <p className='bg-accentshade/20 text-accent rounded-full py-1 px-2'>TeachMeAi</p>
+          <p className='bg-accentshade/20 text-accent rounded-full py-1 px-2'>Elandee</p>
         </div>
       </div>
          <div className="flex flex-col gap-2 border border-gray-200 hover:shadow-lg p-4 rounded-md">
